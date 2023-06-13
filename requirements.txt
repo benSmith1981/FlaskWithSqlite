@@ -1,2 +1,2 @@
-sqlite
+pysqlite3 
 flask
