@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-</head>
-<body>
+{% extends "base.html" %} 
+{% block content %} 
     <h1>Contact Form</h1>
     <form method="POST">
         <label for="name">Name:</label>
@@ -16,5 +10,4 @@
         <textarea name="message" required></textarea><br>
         <button type="submit">Submit</button>
     </form>
-</body>
-</html>
+{% endblock %}
